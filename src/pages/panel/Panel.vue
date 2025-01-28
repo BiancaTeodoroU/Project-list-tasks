@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import AddTask from '../../components/AddTasks.vue'
+import AddTask from '../../components/addtasks/AddTasks.vue'
 
 export default {
   components: { AddTask },

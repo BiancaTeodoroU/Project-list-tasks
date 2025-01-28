@@ -1,20 +1,12 @@
 {
   "tasks": [
     {
-      "id": "f2b633d6-af40-40bc-9120-26c281fd597f",
-      "title": "bnaaadddddddd",
-      "description": "",
-      "priority": "Alta",
-      "completionDate": "",
-      "category": "Pessoal"
-    },
-    {
-      "id": "1b797ee9-6978-434a-9182-7b5936dfedc3",
-      "title": "aaaa",
+      "id": "3c4da9a0-3cd6-41d3-b04a-60703a01c9e0",
+      "title": "b",
       "description": "",
       "priority": "",
       "completionDate": "",
-      "category": "Pessoal"
+      "category": "Trabalho"
     }
   ]
 }

@@ -33,7 +33,7 @@
 <script lang="ts">
 import { defineComponent, PropType } from 'vue'
 import { Task } from '../../shared/types/ipc'
-import ButtonUtility from '../ButtonUtility.vue'
+import ButtonUtility from '../utility/ButtonUtility.vue'
 
 export default defineComponent({
   name: 'FilterTask',

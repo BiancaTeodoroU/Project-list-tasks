@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts">
-import LoginForm from '../../components/LoginForm.vue'
+import LoginForm from '../../components/container/loginForm/LoginForm.vue'
 
 export default {
   name: 'HomePage',

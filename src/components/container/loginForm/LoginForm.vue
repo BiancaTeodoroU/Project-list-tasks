@@ -47,8 +47,8 @@
 </template>
 
 <script lang="ts">
-import ButtonUtility from './ButtonUtility.vue'
-import InputUtility from './InputUtility.vue'
+import ButtonUtility from '../../utility/ButtonUtility.vue'
+import InputUtility from '../../utility/InputUtility.vue'
 import { ref } from 'vue'
 import axios from 'axios'
 import { useRouter } from 'vue-router'

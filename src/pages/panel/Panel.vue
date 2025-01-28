@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import ManagerTask from '../../components/managerTasks/ManagerTasks.vue'
+import ManagerTask from '../../components/container/managerTasks/ManagerTasks.vue'
 
 export default {
   components: { ManagerTask },

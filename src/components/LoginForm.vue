@@ -37,7 +37,10 @@
           {{ passwordErrorMessage }}
         </p>
       </div>
-      <ButtonUtility name="Logar" />
+      <ButtonUtility
+        class="uppercase cursor-pointer text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
+        name="Logar"
+      />
       <p v-if="error" class="text-red-700 text-sm mt-3">Usuário não cadastrado.</p>
     </form>
   </div>

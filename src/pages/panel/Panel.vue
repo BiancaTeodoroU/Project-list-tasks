@@ -1,14 +1,14 @@
 <template>
   <div>
-    <AddTask />
+    <ManagerTask />
   </div>
 </template>
 
 <script lang="ts">
-import AddTask from '../../components/addtasks/AddTasks.vue'
+import ManagerTask from '../../components/managerTasks/ManagerTasks.vue'
 
 export default {
-  components: { AddTask },
+  components: { ManagerTask },
   name: 'PanelUser',
 }
 </script>

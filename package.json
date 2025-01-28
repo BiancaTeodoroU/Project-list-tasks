@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "json-server-user": "json-server --watch ./src/static/user.json --port 5174",
-    "json-server-task": "json-server --watch ./src/static/tasks.json --port 5175",
+    "json-server-all": "concurrently \"json-server --watch ./src/static/user.json --port 5174\" \"json-server --watch ./src/static/tasks.json --port 5175\"",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -31,6 +30,7 @@
     "@vue/eslint-config-typescript": "^14.3.0",
     "@vue/tsconfig": "^0.7.0",
     "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.2",
     "eslint": "^9.18.0",
     "eslint-plugin-vue": "^9.32.0",
     "jiti": "^2.4.2",

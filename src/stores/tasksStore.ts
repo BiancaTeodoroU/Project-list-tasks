@@ -6,8 +6,6 @@ import { v4 as uuidv4 } from 'uuid'
 export const useTaskStore = defineStore('tasks', {
   state: () => ({
     tasks: [] as Task[],
-    categoryFilter: '' as string,
-    priorityFilter: '' as string,
   }),
   actions: {
     async addTask(task: Task) {

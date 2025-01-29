@@ -23,7 +23,7 @@
           <ButtonUtility
             @click.stop="deleteTask(taskItem.id)"
             name="🗑️"
-            class="cursor-pointer z-50 px-4 py-2 bg-red-600 text-white rounded-lg shadow-lg hover:bg-red-700 transition-all duration-200 ease-in-out"
+            class="cursor-pointer px-4 py-2 bg-red-600 text-white rounded-lg shadow-lg hover:bg-red-700 transition-all duration-200 ease-in-out"
           />
         </div>
       </li>

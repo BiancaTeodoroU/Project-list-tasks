@@ -1,39 +1,36 @@
-# management-task
+# ⚙️ management-task - Gerenciamento de Tarefas
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto de gerenciamento de tarefas que permite o usuário logar, adicionar tarefas, editar e excluir
 
-## Recommended IDE Setup
+## 🛠️ Instalação e Configuração
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Type Support for `.vue` Imports in TS
+## 📋 Pré-requisitos
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Antes de começar, você vai precisar ter instalado o node na versão:
 
-## Customize configuration
+- v20.16.0
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Comando para instalar as dependências
 
-## Project Setup
-
-```sh
-npm install
+```bash
+npm i
 ```
 
-### Compile and Hot-Reload for Development
+## 🚀 Como Rodar o Projeto
 
-```sh
-npm run dev
+Você terá que rodar dois comandos simutaneamente para que a aplicação funcione corretamente
+
+```bash
+npm dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
+```bash
+npm json-server-all
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Usuário authenticado
 
-```sh
-npm run lint
-```
+name: Bruna ludtke
+password: bruna1234

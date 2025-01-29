@@ -68,7 +68,7 @@
     <div class="flex justify-end">
       <ButtonUtility
         name="Adicionar Tarefa"
-        class="px-4 py-2 cursor-pointer bg-green-600 text-white rounded-md hover:bg-blue-700"
+        class="px-4 py-2 cursor-pointer bg-green-600 text-white rounded-md hover:bg-green-700"
       />
     </div>
   </form>

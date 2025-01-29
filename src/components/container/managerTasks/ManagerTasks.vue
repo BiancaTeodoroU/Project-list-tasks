@@ -14,12 +14,12 @@
             <ButtonUtility
               @click="() => changedFilterCategory('Todas')"
               name="Todas"
-              class="px-4 cursor-pointer py-2 mr-3 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+              class="px-4 cursor-pointer py-2 mr-3 mb-3 sm:mb-0 bg-blue-600 text-white rounded-md hover:bg-blue-700"
             />
             <ButtonUtility
               @click="() => changedFilterCategory('Pessoal')"
               name="Pessoal"
-              class="px-4 cursor-pointer py-2 mr-3 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+              class="px-4 cursor-pointer py-2 mr-3 mb-3 sm:mb-0 bg-blue-600 text-white rounded-md hover:bg-blue-700"
             />
             <ButtonUtility
               @click="() => changedFilterCategory('Trabalho')"
@@ -42,12 +42,12 @@
             <ButtonUtility
               @click="() => changedFilterpriority('Todas')"
               name="Todas"
-              class="px-4 cursor-pointer py-2 mr-3 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+              class="px-4 cursor-pointer py-2 mr-3 mb-3 sm:mb-0 bg-blue-600 text-white rounded-md hover:bg-blue-700"
             />
             <ButtonUtility
               @click="() => changedFilterpriority('Baixa')"
               name="Baixa"
-              class="px-4 cursor-pointer py-2 mr-3 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+              class="px-4 cursor-pointer py-2 mr-3 mb-3 sm:mb-0 bg-blue-600 text-white rounded-md hover:bg-blue-700"
             />
             <ButtonUtility
               @click="() => changedFilterpriority('Média')"

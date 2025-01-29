@@ -86,7 +86,7 @@
 
 <script lang="ts">
 import ButtonUtility from '../utility/ButtonUtility.vue'
-import { defineComponent, PropType, reactive, ref } from 'vue'
+import { defineComponent, PropType, ref } from 'vue'
 import { Task } from '../../shared/types/ipc'
 
 export default defineComponent({
@@ -113,23 +113,16 @@ export default defineComponent({
   setup(props) {
     const titleError = ref(false)
     const modalTask = props.modalEditTask
-    const task = reactive<Task>({
-      id: '',
-      title: '',
-      description: '',
-      priority: '',
-      completionDate: '',
-      category: '',
-    })
 
     const validateTitle = (): boolean => {
-      if (!task.title) {
+      if (!modalTask.title) {
         titleError.value = true
       } else {
         titleError.value = false
       }
       return titleError.value
     }
+
     const handleSubmit = async () => {
       await props.handleModalSubmit()
     }

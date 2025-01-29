@@ -34,3 +34,7 @@ npm json-server-all
 
 name: Bruna ludtke
 password: bruna1234
+
+## Feedback sobre a expêriencia desenvolvendo o teste
+
+Eu ameiiii, fazia um tempo que eu não mexia ou desenvolvia algo em vue, então eu acho foi muito gostoso ir fazendo e literalmente reaprendendo o framework.

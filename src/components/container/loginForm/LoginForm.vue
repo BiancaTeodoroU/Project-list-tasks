@@ -118,6 +118,7 @@ export default {
         if (user) {
           success.value = true
           error.value = false
+          localStorage.setItem('userLogged', user.name)
           router.push('/painel')
         } else {
           throw new Error('Usuário ou senha inválidos.')

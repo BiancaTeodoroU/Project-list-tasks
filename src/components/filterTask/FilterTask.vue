@@ -4,10 +4,9 @@
       <li
         v-for="taskItem in tasks"
         :key="taskItem.id"
-        class="p-4 border-b border-gray-200 relative"
-        @click="openModal(taskItem)"
+        class="p-4 border-b border-gray-200 flex justify-between items-center relative"
       >
-        <div class="flex flex-col cursor-pointer">
+        <div class="flex flex-col cursor-pointer w-full" @click="openModal(taskItem)">
           <span class="text-lg font-medium mb-2">{{ taskItem.title }}</span>
 
           <div class="flex space-x-4 text-sm text-gray-500">
@@ -20,11 +19,13 @@
           </div>
         </div>
 
-        <ButtonUtility
-          @click.stop="deleteTask(taskItem.id)"
-          name="🗑️"
-          class="absolute cursor-pointer top-4 right-4 px-4 py-2 bg-red-600 text-white rounded-lg shadow-lg hover:bg-red-700 transition-all duration-200 ease-in-out"
-        />
+        <div>
+          <ButtonUtility
+            @click.stop="deleteTask(taskItem.id)"
+            name="🗑️"
+            class="cursor-pointer z-50 px-4 py-2 bg-red-600 text-white rounded-lg shadow-lg hover:bg-red-700 transition-all duration-200 ease-in-out"
+          />
+        </div>
       </li>
     </ul>
   </div>
